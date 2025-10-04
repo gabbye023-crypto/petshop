@@ -11,20 +11,31 @@ Este projeto é um site institucional para um Pet Shop, desenvolvido como parte 
 
 ## ✨ Funcionalidades
 
-O site é dividido em 8 páginas com as seguintes funcionalidades:
+O site é dividido em 10 páginas com as seguintes funcionalidades:
 
-* **🏠 Página Inicial:** Apresentação geral do Pet Shop.
-* **📅 Agendamento:** Formulário detalhado para marcar dia, horário e especificar as necessidades do pet.
-* **✅ Confirmação de Agendamento:** Página que confirma os dados do agendamento para segurança do cliente.
-* **📖 Blog:** Espaço com dicas e novidades sobre o mundo pet.
-* **🖼️ Galeria de Fotos:** Mostruário com fotos de "antes e depois" dos pets atendidos.
-* **👥 Sobre Nós:** Explicação sobre a história e a equipe do Pet Shop.
-* **⭐ Feedbacks e Avaliações:** Área para clientes deixarem suas avaliações e comentários.
-* **📞 Contato:** Informações de contato e localização.
+Página Principal: A porta de entrada do site, com uma visão geral e destaques.
+
+Serviços: Detalhes de todos os serviços de banho e tosa oferecidos.
+
+Agendamento: Formulário para o cliente marcar dia e horário para seu pet.
+
+Sobre: Nossa história, missão e a equipe apaixonada por pets.
+
+Contato: Todas as informações para nos encontrar, como endereço, telefone e e-mail.
+
+Dicas de Cuidado: Conteúdo relevante com conselhos sobre como cuidar do seu pet.
+
+Curiosidades: Uma página dedicada a fatos divertidos sobre o mundo animal.
+
+Tipos de Tosa: Detalhes e exemplos dos diferentes tipos de tosa que realizamos.
+
+Doações: Informações sobre como ajudar e contribuir com a nossa causa.
+
+Redes Sociais: Links diretos para o perfil do petshop
 
 ## 🛠️ Tecnologias Utilizadas
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes ferramentas estão sendo usadas na construção do projeto:
 
 * **HTML:** Para a estrutura semântica do site.
 * **CSS:** Para a estilização e o design responsivo das páginas.
