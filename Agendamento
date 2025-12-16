@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta description>
+    <link rel="icon" href="img/ico/amigoleal.ico">
+    <link rel="stylesheet" href="css/style.css"> 
+  <title>Agendamento - AMIGO LEAL</title>
+  
+ 
+
+</head>
+<body>
+
+  <header>
+    <h1>Agendamento</h1>
+  </header>
+
+  <nav aria-label="Menu principal">
+    <a href="index.html">Início</a>
+    <a href="servico.html">Serviços</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="doacoes.html">Doações</a>
+    <a href="contato.html">Contato</a>
+    <a href="agendamento.html" class="ativo">Agendamento</a>
+    <a href="tosatp.html">Tipos de tosa</a>
+    <a href="antes_depois.html">Antes e Depois</a>
+    <a href="dicas.html">Dicas de Cuidado</a>
+    <a href="feedback_faq.html">Feedback</a>
+  </nav>
+
+  <main>
+    <section class="agendamento">
+      <h2>Serviços Disponíveis</h2>
+      <ul>
+        <li>Banho e Tosa</li>
+        <li>Consulta Veterinária</li>
+        <li>Higiene e Estética</li>
+        <li>Pet Hotel (diária)</li>
+      </ul>
+
+      <img src="img/agendamento_img/precotosa.png" alt="menu de serviço informando o preço inicial da tosa">
+      
+      <br>
+
+      <img src="img/agendamento_img/pacotes.png" alt="menu de serviço sobre o clubinho pet">
+
+      <div style="text-align: center;">
+        <a class="whatsapp_age" href="https://wa.me/5511997981283?text=Olá%2C+gostaria+de+agendar+um+serviço+para+meu+pet!" target="_blank">
+          Agendar pelo WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <audio controls autoplay hidden>
+      <source src="audio/ambiente.mp3" type="audio/mpeg">
+      Seu navegador não suporta áudio.
+    </audio>
+
+     <!--aqui começa o vlibras-->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AMIGO LEAL PetShop. Todos os direitos reservados.</p>
+    <p>Endereço: Rua Alfredo Ricci, 101 - Conj. Res. José Bonifácio | Tel: (11) 99798-1283</p>
+    <p>Nos siga: 
+      <a href="https://www.instagram.com/amigolealbanhoetosa/" target="_blank">Instagram</a> | 
+      <a href="https://wa.me/5511997981283" target="_blank">WhatsApp</a>
+    </p>
+    <small>Desenvolvido por Turma do bairro</small>
+  </footer>
+
+</body>
+</html>
