@@ -1,6 +1,6 @@
 # 🐾 Pet Shop - Agendamentos Online
 
-![Status do Projeto](https://img.shields.io/badge/status-em%100desenvolvimento-purple)
+![Status do Projeto](https://img.shields.io/badge/status-em%concluido-purple)
 ![GitHub last commit](https://img.shields.io/github/last-commit/gabbye023-crypto/petshop)
 
 > Plataforma online para agendamento de serviços de banho e tosa, desenvolvida como um projeto acadêmico.
