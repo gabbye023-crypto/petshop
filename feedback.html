@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description content="Veja avaliações de clientes e deixe seu feedback sobre o AMIGO LEAL Petshop.">
+        <link rel="icon" href="img/ico/amigoleal.ico">
+    <title>Feedbacks e Avaliações - AMIGO LEAL</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Feedbacks e Avaliações</h1>
+    </header>
+
+    <nav aria-label="Menu principal"> <!--links de navegação-->
+        <a href="index.html">Início</a>
+        <a href="servico.html">Serviços</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="doacoes.html">Doações</a>
+        <a href="contato.html">Contato</a>
+        <a href="agendamento.html">Agendamento</a>
+        <a href="tosatp.html">Tipos de tosa</a>
+        <a href="antes_depois.html">Antes e Depois</a>
+        <a href="dicas.html">Dicas de Cuidado</a>
+        <a href="feedback_faq.html" class="ativo">Feedback</a>
+    </nav>
+
+<main>
+
+        <section><!--Section: Cria uma área temática dentro do main-->
+
+        <div aria-label="Formulário para deixar um novo feedback">
+            <h2>Deixe a sua avaliação</h2>
+            
+            <form action="#" method="post">
+                
+                <label for="nome">Seu nome:</label><br>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome"><br><br>
+
+                <label for="nota">Nota (1 a 5 estrelas):</label><br>
+                <select id="nota" name="nota" required>
+                    <option value="">Selecione a nota</option>
+                    <option value="5">⭐⭐⭐⭐⭐ Excelente</option>
+                    <option value="4">⭐⭐⭐⭐☆ Muito Bom</option>
+                    <option value="3">⭐⭐⭐☆☆ Bom</option>
+                    <option value="2">⭐⭐☆☆☆ Razoável</option>
+                    <option value="1">⭐☆☆☆☆ Ruim</option>
+                </select><br><br>
+
+                <label for="comentario">Seu comentário detalhado:</label><br>
+                <textarea id="comentario" name="comentario" rows="4" required placeholder="Digite   seu comentário em detalhes"></textarea><br><br>
+
+                <button type="submit">Enviar Avaliação</button>
+            </form>
+        </div>
+
+
+            
+            <article class="feedback">
+                <p>⭐⭐⭐⭐⭐</p>
+                <blockquote>"Meu cachorro ficou lindo! Atendimento excelente, super atenciosos!"</blockquote> <!---Depoimento ou citação-->
+                <p><strong>– Ana Paula</strong></p>
+            </article>
+
+            <article class="feedback">
+                <p>⭐⭐⭐⭐☆</p>
+                <blockquote>"Muito cuidadosos e atenciosos. Recomendo o banho e a tosa higiênica."</blockquote>
+                <p><strong>– João Mendes</strong></p>
+            </article>
+
+            <article class="feedback">
+                <p>⭐⭐⭐☆☆</p>
+                <blockquote>"Gostei do resultado do corte, mas o horário de entrega atrasou um pouquinho."</blockquote>
+                <p><strong>– Carla Souza</strong></p>
+            </article>
+        </section>
+
+
+  <!-- adição VLibras  -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+</main>
+
+    <footer> <!--rodapé da pagina-->
+        <p>&copy; 2025 AMIGO LEAL PetShop. Todos os direitos reservados.</p>
+        <p>Endereço: Rua Alfredo Ricci, 101 - Conj. Res. José Bonifácio | Tel: (11) 99798-1283</p>
+        <p>Nos siga: 
+            <a href="https://www.instagram.com/amigolealbanhoetosa/" target="_blank">Instagram</a> |  | 
+            <a href="https://wa.me/5511997981283" target="_blank">WhatsApp</a>
+        </p>
+        <small>Desenvolvido por Turma do bairro</small>
+    </footer>
+
+</body>
+</html>
