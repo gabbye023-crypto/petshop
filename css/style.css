@@ -1,0 +1,470 @@
+/* ========================
+   RESET & BASE
+======================== */
+* {      /*seleciona tudo da pagina*/
+  margin: 0;  /*remove margens padrão do nav */
+  padding: 0; /*remove espaços dos navegadores */
+  box-sizing: border-box; /*faz com que width e height incluam padding e margin*/
+}
+
+html, body {
+  height: 100%; /*faz com que o body ocupe 100% da altura de tela*/
+}
+
+body {
+  font-family: "Baloo 2", "Inter", system-ui, sans-serif; /*define as fontes a serem usadas*/
+  background: #fffaf9; /* do primeiro código */
+  color: #333;  /*define a cor do texto para preto*/
+  line-height: 1.6; /*espaçamento entre linhas*/
+  -webkit-font-smoothing: antialiased;  /*melhora o render, deixa o texto mais suave*/
+  -moz-osx-font-smoothing: grayscale;   /*cria espaço no topo do body*/
+  padding-top: 100px; /* espaço para header fixo */
+}
+
+/* Paleta de cores variáveis */
+:root {     /*usado para definir variaveis*/
+  --rosa: #ffb6c1;  /*variaveis*/
+  --rosa-escuro: #ff7aa3; 
+  --verde: #a8e6cf;
+  --amarelo: #fff3b0;
+  --cinza-claro: #f9f9f9;
+  --texto: #333;
+  --shadow: 0 8px 24px rgba(0,0,0,0.08); /*padrão de somra*/
+  --round: 16px;    /*define raio de borda*/
+}
+
+/* ========================
+   CABEÇALHO E MENU
+======================== */
+header {
+  position: fixed; /* mantem o cabeçalho fixo no topo*/
+  top: 0;   /*fixam posição nas bordas superiores*/
+  left: 0;  /*fixam posição nas bordas superiores*/
+  right: 0; /*fixam posição nas bordas superiores*/
+  background: linear-gradient(135deg, var(--rosa), var(--rosa-escuro)); /*degrade*/
+  padding: 20px;  /*espaçamento*/
+  display: flex;  /*organiza header linha a linha*/ 
+  align-items: center;    /*centraliza os itens*/
+  justify-content: center;
+  gap: 12px;    /*espaço esntre os itens*/
+  box-shadow: var(--shadow);  
+  z-index: 1000;  /*faz o reader ficar acima de outros elementos*/
+  color: white; /*cor do texto*/
+  text-align: center; /*centraliza texto*/
+}
+
+header h1 {
+  font-size: 1.8rem; /*tamanho da fonte*/
+  letter-spacing: 2px;  /*espaço entre as letras*/
+}
+
+header img {
+  height: 50px; /*altura da imagem do header*/
+  flex-wrap: wrap;  
+}
+
+/* Navegação */
+nav {
+  background: var(--verde); /*cor de fundo*/
+  display: flex;    /*organiza links lado a lado*/
+  flex-wrap: wrap;  /*itens vão para outra linha se não couber*/
+  justify-content: center;  /*centraliza os links*/
+  gap: 10px;    /*espaçamento*/
+  padding: 12px;  /*espaço interno da barra*/
+}
+
+nav a {
+  text-decoration: none; /*remove o sublinhado*/
+  background: white;  /*cor de fundo*/
+  padding: 8px 14px;  
+  border-radius: 999px; /*faz os botoés ficarem redondo*/
+  font-weight: bold;  /*texto em negrito*/
+  color: var(--texto);  /*utilização da variavel*/
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05); /*sobra leve*/
+  transition: all 0.3s ease;  /*animação mais lenta*/
+}
+
+nav a:hover,
+nav a.ativo {   /*id que faz a barra de navegação ficar no estado ativo*/
+  background: var(--rosa); 
+  color: white;
+  transform: translateY(-3px); /*eleva o botão criando animação*/
+}
+
+/* ========================
+   SEÇÕES & TÍTULOS
+======================== */
+main {
+  max-width: 1100px; /*limita a largura maxima da pagina*/
+  margin: 20px auto;  /*espaçamento externo no topo e auto nas extremidades*/
+  padding: 20px;  /*cria espaço dentro do main*/
+}
+
+section {
+  background: white; /*cor de fundo*/
+  border-radius: var(--round); /*borda com o valor da variavel*/
+  padding: 20px;    /*espaço entre conteudo e borda*/
+  box-shadow: var(--shadow);  /*sombra em volta do bloco*/
+  margin-bottom: 20px;  /*separa verticalmente as seções*/
+}
+
+section h2,
+section h3 {
+  color: var(--rosa-escuro); /*cor dos textos*/
+  margin-bottom: 15px;    /*espaço em baixo dos titulos*/
+  text-align: center;   /*texto no centro*/
+}
+
+section p {
+  color: #555;  /*cor das letras*/
+  text-align: center; /*texto no centro*/
+}
+
+section a {
+  text-decoration: none; /*remove sublinhados*/
+  color: var(--texto);  /*cor do texto*/
+  padding-left: 0%;   /*sem espaçamento na esquerda para alinhar*/
+}
+
+section ul { /*Centraliza as listas não ordenadas*/
+  list-style-position: inside;  /*as bolinhas ficam dentro da caixa de teto*/
+  text-align: center;   /*centraliza texto e marcadores*/
+}
+
+/* ========================
+   BOTÕES
+======================== */
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: var(--round);
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, var(--rosa), var(--rosa-escuro));
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+.btn-secundario {
+  background: var(--verde);
+  color: var(--texto);
+}
+
+.btn-secundario:hover {
+  background: var(--amarelo);
+}
+
+/* ========================
+   FORMULÁRIOS
+======================== */
+form {
+  background: white;
+  padding: 25px 20px;
+  border-radius: var(--round);
+  box-shadow: var(--shadow);
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: var(--round);
+  font-size: 1rem;
+}
+
+form button,
+form input[type="submit"] {
+  background: var(--rosa);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: var(--round);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+form button:hover,
+form input[type="submit"]:hover {
+  background: var(--rosa-escuro);
+}
+
+/* ========================
+   TABELAS
+======================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th,
+table td {
+  padding: 12px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+table th {
+  background: var(--rosa);
+  color: white;
+}
+
+/* ========================
+   GALERIA
+======================== */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.galeria img {
+  width: 100%;
+  border-radius: var(--round);
+  box-shadow: var(--shadow);
+  transition: transform 0.2s;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* ========================
+   RODAPÉ
+======================== */
+footer {
+  background: var(--rosa-escuro);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ========================
+   DETALHES FOFOS
+======================== */
+body::before,
+body::after {
+  content: "🐾";
+  position: fixed;
+  font-size: 36px;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+body::before {
+  left: 15px;
+  bottom: 15px;
+}
+
+body::after {
+  right: 15px;
+  top: 15px;
+}
+
+/* ========================
+   RESPONSIVIDADE
+======================== */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.3rem;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .servico {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .servico img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .servico h2 {
+    font-size: 1.4em;
+  }
+
+  .servico p {
+    font-size: 1em;
+  }
+}
+
+/* ========================
+   CENTRALIZAÇÃO E OUTROS
+=========================== */
+.doacoes img,
+.agendamento img,
+details img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.dicas section {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+p,
+h3,
+iframe {
+  text-align: center;
+}
+
+.antes-depois {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.antes-depois video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+}
+
+.tosatitulo {
+  text-align: center;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* Agendamento */
+.agendamento ul li {
+  background-color: white;
+  margin: 10px auto;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 400px;
+  font-size: 16px;
+}
+
+.whatsapp_age {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.whatsapp_age:hover {
+  background-color: #1ebe57;
+}
+
+/* Feedback */
+.feedback {
+  background-color: white;
+  border-left: 6px solid var(--rosa-escuro);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.feedback blockquote {
+  font-style: italic;
+  margin: 10px 0;
+  color: #555;
+}
+
+.feedback p {
+  margin: 0;
+}
+
+/* Serviços */
+.servico img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--round); /* opcional, se quiser cantos arredondados */
+  display: block;
+  max-width: 1000px; /* evita que fique maior que o original */
+  margin: 0 auto; /* centraliza */
+}
+
+/* Dicas */
+/* === Responsividade para vídeos (YouTube, etc.) === */
+.dicas iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; /* mantém proporção do vídeo */
+  max-width: 900px; /* opcional, evita que fique gigante em telas grandes */
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px; /* opcional, deixa o vídeo com cantos arredondados */
+}
+
+/* Contato */
+.contato iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+}
