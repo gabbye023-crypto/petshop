@@ -1,16 +1,9 @@
 🐾 Diário de Bordo – Projeto Site do Pet Shop
 
-Período: 18 de setembro a outubro
-Curso: Desenvolvimento de Front-End para Web
-Grupo: 8 integrantes
-
-
----
+Período: 18 de setembro a 06 de novembro Curso: Desenvolvimento de Front-End para Web Grupo: 8 integrantes
 
 Semana 1 (18 a 22 de setembro) – Início do Projeto e Organização do Grupo
-
 Registro de decisões:
-
 O grupo decidiu se dividir em duplas para organizar as funções da primeira etapa: duas pessoas ficaram responsáveis pelo GitHub, duas pelo documento README, e as demais pelas partes de desenvolvimento das páginas.
 
 Foi decidido que o desenvolvimento seguiria a ordem lógica: primeiro o HTML, depois o CSS, e por fim o JavaScript, conforme o conteúdo fosse abordado em aula.
@@ -19,113 +12,109 @@ Escolheu-se utilizar as linguagens HTML, CSS e JavaScript para a criação do si
 
 O grupo elegeu um líder para acompanhar o andamento das atividades e coordenar a comunicação entre os integrantes.
 
-
 Registro de aprendizados:
-
 Aprendemos a importância de dividir bem as tarefas e de manter uma boa comunicação desde o início.
 
 Tivemos o primeiro contato com o GitHub, entendendo como enviar, atualizar e organizar arquivos do projeto.
 
-
 Registro de dificuldades:
-
 Houve certa dificuldade inicial para definir as funções de cada dupla e alinhar a execução das tarefas.
 
 A comunicação precisou de ajustes, já que alguns membros acabaram fazendo partes parecidas sem combinar antes.
 
-
-
----
-
 Semana 2 (23 a 29 de setembro) – Desenvolvimento em HTML
-
 Registro de decisões:
-
 Começamos a construir as páginas principais do site utilizando HTML.
 
 Cada dupla ficou responsável por uma página diferente (como página inicial, produtos, contato e sobre).
 
-
 Registro de aprendizados:
-
 Foi a etapa em que mais aprendemos a montar páginas em HTML, entendendo na prática o uso das tags e da estrutura geral.
 
 A experiência de codar e ver o resultado na tela ajudou a consolidar o conteúdo das aulas.
 
-
 Registro de dificuldades:
-
 Tivemos algumas dificuldades para manter um padrão visual e estrutural entre as páginas.
 
 Também percebemos a importância de revisar o código antes de juntar tudo, para evitar diferenças entre as partes criadas por cada dupla.
 
-
-
----
-
 Semana 3 (30 de setembro a 6 de outubro) – Primeiros Testes com CSS
-
 Registro de decisões:
-
 O grupo começou a explorar o CSS, aplicando apenas alguns testes básicos de formatação.
 
 A ideia foi entender como o CSS se conecta ao HTML e preparar o terreno para a próxima fase do projeto.
 
 Ficou decidido que o foco principal ainda seria consolidar o HTML antes de avançar completamente para o CSS.
 
-
 Registro de aprendizados:
-
 Aprendemos o básico sobre a ligação entre HTML e CSS, como selecionar elementos e aplicar pequenas alterações visuais.
 
 Foi possível perceber a diferença que o CSS faz na aparência do site, mesmo em pequenas mudanças.
 
-
 Registro de dificuldades:
-
 Tivemos dificuldade em aplicar o CSS de forma uniforme nas páginas, já que nem todos dominam a linguagem ainda.
 
 Por enquanto, a parte visual ainda está simples, e o grupo pretende aprimorar essa etapa nas próximas semanas.
 
-
-
----
-
 Semana 4 (7 a 13 de outubro) – Revisões, Integração e Organização do Projeto
-
 Registro de decisões:
-
 O grupo decidiu revisar todas as páginas em HTML e garantir que estivessem bem estruturadas antes de avançar.
 
 O GitHub passou a ser usado com mais frequência para centralizar os arquivos e as versões atualizadas do site.
 
 O líder acompanhou o andamento geral do projeto e ajudou a organizar as revisões.
 
-
 Registro de aprendizados:
-
 Aprendemos a trabalhar de maneira mais colaborativa e a comunicar melhor as alterações feitas.
 
 Entendemos a importância de revisar o código em grupo e manter uma boa organização nos arquivos.
 
 Ficou claro que o aprendizado é contínuo, principalmente por meio da prática e da troca de experiências entre os colegas.
 
-
 Registro de dificuldades:
-
 A principal dificuldade foi manter a comunicação fluindo entre todos, garantindo que as alterações fossem feitas de forma ordenada.
 
 Ainda encontramos pequenos erros e diferenças nas páginas, exigindo revisões manuais.
 
-
-
----
+Semana Final: da primeira entrega
+No HTML: Realizamos ajustes nos links... No CSS: Realizamos ajuste nas imagens e escondemos a decoração dos links par aque não ficasse o tracejado...
 
 Conclusão Geral (meados de outubro)
+Desde o início, em 18 de setembro, o grupo vem demonstrando evolução constante no desenvolvimento do site do Pet Shop. Apesar dos desafios de coordenação e do aprendizado coletivo, conseguimos montar uma boa base em HTML e dar os primeiros passos no CSS, mesmo que de forma simples. O uso do GitHub também foi um aprendizado importante, tanto para o envio de arquivos quanto para o controle das versões.
 
-Desde o início, em 18 de setembro, o grupo vem demonstrando evolução constante no desenvolvimento do site do Pet Shop.
-Apesar dos desafios de coordenação e do aprendizado coletivo, conseguimos montar uma boa base em HTML e dar os primeiros passos no CSS, mesmo que de forma simples.
-O uso do GitHub também foi um aprendizado importante, tanto para o envio de arquivos quanto para o controle das versões.
+O projeto permitiu desenvolver não apenas habilidades técnicas, mas também valores de organização, comunicação e trabalho em equipe. O site segue em desenvolvimento, com o HTML finalizado, o CSS em fase inicial de testes e o JavaScript previsto para ser aplicado quando for abordado em sala de aula.
 
-O projeto permitiu desenvolver não apenas habilidades técnicas, mas também valores de organização, comunicação e trabalho em equipe.
-O site segue em desenvolvimento, com o HTML finalizado, o CSS em fase inicial de testes e o JavaScript previsto para ser aplicado quando for abordado em sala de aula.
+Semana 5 e 6 (14 a 27 de outubro) – Aprendizado e Conclusão do CSS
+Registro de decisões:
+O grupo decidiu dedicar essas semanas exclusivamente ao estudo e aplicação do CSS, com o objetivo de finalizar o estilo visual do site. Cada dupla ficou responsável por uma parte específica do layout (como cabeçalho, rodapé, página inicial e página de produtos), garantindo que todo o design ficasse harmônico e padronizado. Também foi decidido que o site teria um tema visual leve e moderno, combinando cores neutras e tons pastéis para combinar com o ambiente de um pet shop.
+
+Registro de aprendizados:
+Durante essas semanas, aprendemos a aplicar o CSS de forma mais avançada, entendendo melhor como o estilo influencia na aparência e na experiência do usuário. Compreendemos a importância da organização visual e da responsividade, adaptando o site para diferentes tamanhos de tela. Também aprendemos a trabalhar de maneira mais alinhada, revisando juntos o código e as estilizações.
+
+Registro de dificuldades:
+Tivemos algumas dificuldades com o alinhamento dos elementos e a responsividade, especialmente em telas menores. Alguns integrantes ainda estavam se acostumando com a estrutura do CSS e acabaram gerando pequenos conflitos no código, que foram resolvidos em conjunto. A integração de diferentes estilos também exigiu paciência e revisões coletivas para manter um padrão visual.
+
+Semana 7 (28 de outubro a 3 de novembro) – Atualizações Finais e Acessibilidade
+Registro de decisões:
+Após concluir a parte visual, o grupo decidiu atualizar o site com JavaScript e incluir o VLibras, uma ferramenta de acessibilidade que traduz o conteúdo do site para Libras (Língua Brasileira de Sinais), tornando o projeto mais inclusivo. Também foi decidido revisar os últimos detalhes de design e deixar o site pronto para apresentação.
+
+Registro de aprendizados:
+Aprendemos sobre acessibilidade digital e entendemos a importância de tornar os sites acessíveis a todos os públicos. A instalação e o uso do VLibras foram experiências novas e importantes para o grupo, mostrando como a tecnologia pode ser usada para incluir mais pessoas.
+
+Registro de dificuldades:
+A configuração inicial do VLibras apresentou pequenos desafios, como o posicionamento do ícone e o carregamento do script, mas foram resolvidos com pesquisa e testes em grupo.
+
+Semana Final (4 a 6 de novembro) – Revisão, Ajustes e Entrega
+Registro de decisões:
+O grupo decidiu revisar todo o projeto antes da entrega final, verificando o funcionamento do CSS, JavaScript e VLibras. Foram feitas pequenas melhorias de design, ajustes de responsividade e revisões de conteúdo textual. O grupo também decidiu manter o código organizado no GitHub para facilitar a apresentação e a avaliação.
+
+Registro de aprendizados:
+Conseguimos compreender o processo completo de desenvolvimento de um site — desde o HTML até a aplicação de CSS e recursos de acessibilidade. Aprendemos o valor da organização em equipe, da persistência e da cooperação, mesmo diante das dificuldades. A experiência mostrou o quanto o trabalho coletivo e o aprendizado contínuo são essenciais para o sucesso de um projeto.
+
+Registro de dificuldades:
+As principais dificuldades nesta fase foram relacionadas ao tempo curto para ajustes finais e à sincronização das alterações no GitHub. Também houve pequenos conflitos de código entre arquivos, resolvidos em grupo com paciência e comunicação.
+
+Conclusão Final (6 de novembro)
+O projeto do site do Pet Shop foi concluído com sucesso. Durante essas semanas, o grupo evoluiu significativamente em conhecimento técnico e em trabalho colaborativo. Saímos do básico do HTML, passamos pela estilização completa com CSS e finalizamos com atualizações em JavaScript e a implementação do VLibras, entregando um site funcional, bonito e acessível.
+
+Apesar dos desafios, o grupo demonstrou dedicação, aprendizado e crescimento. A entrega marca não apenas o fim de um projeto, mas o início de uma jornada mais sólida no desenvolvimento web.
